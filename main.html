@@ -14,6 +14,7 @@
         .topnav {
             background-color: #A1C2BD;
             overflow: hidden;
+            font-family:Trebuchet MS, sans-serif;
         }
 
         .topnav a {
@@ -35,23 +36,22 @@
             background-color: #708993;
             color: white;
             float: right;
-            font-family:Trebuchet MS, sans-serif;
+            
         }
         
         .topnav a.projetos {
             float: right;
-            font-family:Trebuchet MS, sans-serif;
+            
         }
 
         .topnav a.contato {
             float: right;
-            font-family:Trebuchet MS, sans-serif;
+            
         }
 
         .topnav p.titulo {
             float: left;
             font-size: 30px;
-            font-family:Trebuchet MS, sans-serif;
             padding: 0px 14px;
         }
 
@@ -64,7 +64,7 @@
             gap: 100px;
         }
 
-        .apresentacao_foto img{
+        .apresentacao_foto img {
             max-width: 300px;
             max-height: 300px;
             justify-content: left;
@@ -126,12 +126,43 @@
             line-height: 2.5;
         }
         
+        .apresentacao_projetos {
+            display: flex;
+            justify-content: center;
+            align-items: center; 
+            color: #19183B;
+            background-color: #E7F2EF;
+            height:500px;
+            gap: 100px;
+            line-height: 1.8;
+            font-size: 25px;
+        }
+       
+        .apresentacao_projetos img {
+            max-width: 400px;
+            max-height: 400px;
+            justify-content: right;
+        }
+
+        .apresentacao_projetos button {
+
+            border: none;
+            color: #19183B;
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 25px;
+            margin: 4px 2px;
+            cursor: pointer;
+        }
+
         .final_da_pagina{
             display: flex;
             justify-content: center;
             color: white;
             background-color: #19183B;
-            height:300px;
+            height:250px;
             flex-direction: column;
             line-height: 1.8;
             font-size: 30px;
@@ -197,6 +228,21 @@
             </ul>
         </div>
 
+
+        <div class="apresentacao_projetos">
+
+            <p>
+                Veja meus projetos aqui
+            </p>
+
+            <button>Projetos</button>
+
+            <img src="Capturar.PNG" alt="Foto projeto">
+
+
+        </div>
+        
+        
         <div class="final_da_pagina">
             
             <p>
@@ -204,6 +250,7 @@
             </p>
 
             <p class="copyright">
+               
                 Copyright © 2025 Paulo Franquini All Right Reserved.
 
             </p>
