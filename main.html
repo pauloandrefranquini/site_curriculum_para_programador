@@ -144,17 +144,38 @@
             justify-content: right;
         }
 
-        .apresentacao_projetos button {
+        .apresentacao_projetos a {
 
             border: none;
             color: #19183B;
+            background-color: #708993 ;
             padding: 15px 32px;
             text-align: center;
             text-decoration: none;
-            display: inline-block;
+            display: block;
             font-size: 25px;
             margin: 4px 2px;
             cursor: pointer;
+            flex-direction: column;
+            border-radius: 12px;
+        }
+
+        .apresentacao_projetos_botao {
+
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            gap: 10px;
+
+        }
+
+        .apresentacao_projetos_botao a:hover {
+
+            color: #E7F2EF;
+            background-color: #19183B;
+
         }
 
         .final_da_pagina{
@@ -190,7 +211,7 @@
         </div>
 
         <div class="apresentacao_foto">
-            <img src="minha_foto.jpeg" alt="Paulo Franquini">
+            <img src="images/minha_foto.jpeg" alt="Paulo Franquini">
             <h1>Olá,<br>tudo bem?</h1>
         </div>
         
@@ -230,14 +251,15 @@
 
 
         <div class="apresentacao_projetos">
+            <div class="apresentacao_projetos_botao">
+                <p>
+                    Veja meus projetos aqui:
+                </p>
 
-            <p>
-                Veja meus projetos aqui
-            </p>
+                <a href="/projetos.html">Projetos</a>
+            </div>
 
-            <button>Projetos</button>
-
-            <img src="Capturar.PNG" alt="Foto projeto">
+            <img src="images/Capturar.PNG" alt="Foto projeto">
 
 
         </div>
