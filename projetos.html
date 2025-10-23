@@ -60,76 +60,60 @@
             padding: 0px 14px;
         }
         
-        .jogo_da_velha_titulo {
-           
-            text-align: left;
-            color: #19183B;
-            background-color: #E7F2EF;
-            font-size: 40px;
-            padding-left: 200px; /* ou ajuste conforme necessário */
-            padding-top: 100px;
-            
-        }
-
-
 
         .link_jogo_da_velha {
             display: flex;
-            justify-content: center;
-            align-items: center; 
-            color: #19183B;
+            align-items: flex-start;
             background-color: #E7F2EF;
-            height:500px;
-            line-height: 1.8;
-            font-size: 25px;
-            flex-direction: column;
+            color: #19183B;
+            padding: 40px;
+            gap: 50px;
         }
 
-        .link_jogo_da_velha p{
-            margin: 50px 100px; 
-            max-width: 900px; 
-            text-align: left;
-        }
-       
         .link_jogo_da_velha img {
-            max-width: 400px;
-            max-height: 400px;
-            justify-content: right;
+            max-width: 300px;
+            max-height: 300px;
+            justify-content: flex-start;
         }
 
-        .link_jogo_da_velha a {
+        .conteudo_jogo_da_velha {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            max-width: 600px;
+        }
 
+        .titulo_link_jogo_da_velha {
+            justify-content: center;
+            font-size: 28px;
+            margin: 0;
+        }
+
+        .conteudo_jogo_da_velha p {
+            font-size: 25px;
+            line-height: 1.8;
+            margin: 0;
+            justify-content: flex-start;
+        }
+
+        .botao_jogo_da_velha a {
             border: none;
             color: #19183B;
-            background-color: #708993 ;
+            background-color: #708993;
             padding: 15px 32px;
             text-align: center;
             text-decoration: none;
-            display: block;
-            font-size: 25px;
-            margin: 4px 2px;
-            cursor: pointer;
-            flex-direction: column;
+            font-size: 20px;
             border-radius: 12px;
-        }
-
-        .botao_jogo_da_velha {
-
-            display: flex;
-            flex-direction: column;
-            align-items: center;
+            transition: background-color 0.3s, color 0.3s;
             justify-content: center;
-            text-align: center;
-            gap: 10px;
-
+            
         }
 
         .botao_jogo_da_velha a:hover {
-
             color: #E7F2EF;
             background-color: #19183B;
         }
-        
 
         .final_da_pagina{
             display: flex;
@@ -164,22 +148,21 @@
         </div>
 
 
-       
-            
-        <div class="jogo_da_velha_titulo">
-                
-            <b>Jogo da velha</b> 
-                
-        </div>
-        
-        <div class="link_jogo_da_velha">
-            <p>
-                Jogo da velha feito em python com o funcionamento baseado no terminal. Apreendizados do projeto:
-                lógica de turnos, lógica de condições para vitória ou derrota
+       <div class="link_jogo_da_velha">
+            <img src="images/jogo_da_velha_print.png" alt="Jogo da velha">
 
-            </p>
-                
-            <a class="botao_jogo_da_velha" href="link_jogo_da_velha">Veja o código aqui</a>
+            <div class="conteudo_jogo_da_velha">
+                <p class="titulo_link_jogo_da_velha"><b>Jogo da velha</b></p>
+
+                <p>
+                    Jogo da velha feito em python com o funcionamento baseado no terminal. Apreendizados do projeto:
+                    lógica de turnos, lógica de condições para vitória ou derrota
+                </p>
+
+                <div class="botao_jogo_da_velha">
+                    <a href="link_jogo_da_velha">Veja o código aqui</a>
+                </div>
+            </div>
         </div>
         
         
