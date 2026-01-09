@@ -1,2 +1,10 @@
-# site_curriculum_para_programador
-A intenção do repositório é salvar o avanço do meu site curriculum e ajudar quem estiver fazendo algum projeto parecido.
+
+# Site currículo para programador.
+
+Este projeto é o meu primeiro site utilizando HTML + CSS. Quase tudo que foi construído por tentativa e erro e utilizei como documentação principalmente o site https://www.w3schools.com. 
+
+
+## Aprendizados
+
+Aprendi com este projeto os fundamentos do HTML, CSS, e utilização do prório GIT e do GITHUB.
+
